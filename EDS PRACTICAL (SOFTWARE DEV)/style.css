@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --backgroundColor: rgb(93, 100, 227);
+    --btn-color:rgb(44,61,229);
+    --nav--link--color:black;
+    --nav--link--hover--color:rgb(210, 210, 135);
+
+
+}
+header{
+    background-color: var(--backgroundColor);
+    min-height: 100px;
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-item{
+    margin: 6px 6px;
+    padding-top: 0.3rem;
+}
+.new-link{
+    text-decoration: none;
+}
+.new-link:hover{
+    color : var(--nav--link--hover--color);
+    text-decoration: underline;
+}
